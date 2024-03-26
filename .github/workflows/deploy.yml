@@ -29,6 +29,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "andyjiang-my-fresh-ap-13"
-          entrypoint: "main.js"
-          root: "_fresh"
+          project: "andyjiang-my-fresh-ap-21"
+          entrypoint: "main.ts"
+          root: "."
